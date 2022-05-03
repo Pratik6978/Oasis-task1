@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+}
+
+.navbar {
+  position: sticky;
+  overflow: hidden;
+  width: 100%;
+  height: 15x;
+  /* background-image: url(img2.jpg); */
+  background-size: cover;
+}
+nav {
+  width: 100%;
+  height: 50px;
+  font: 80px;
+  background-color: rgb(78, 6, 30);
+  line-height: 50px;
+}
+nav ul {
+  float: right;
+  margin-right: 30px;
+}
+nav ul li {
+  font-family: verdana;
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+nav ul li:hover {
+  background-color: rgb(186, 110, 135);
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+}
+.heading {
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  background-size: cover;
+  color: #08253b;
+}
+html {
+  font-size: 16px;
+}
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #427507;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #0f2f47;
+  color: white;
+}
+.fa-google {
+  background: #580c06;
+  color: white;
+}
+.fa-linkedin {
+  background: #096b5e;
+  color: white;
+}
+
+.fa {
+  vertical-align: bottom;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5%;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  float: right;
+  transition: all 0.3s ease;
+}
+.text-footer {
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(78, 6, 30);
+  font-family: verdana;
+}
+s .text-footer:hover {
+  opacity: 5px;
+}
+.olympic-image {
+  justify-content: center;
+}
+.content-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+}
+img {
+  size: 50%;
+}
